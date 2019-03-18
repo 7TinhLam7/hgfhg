@@ -1,0 +1,95 @@
+.navlogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  color: black;
+  list-style: none;
+  font-size:1vw;
+}
+a{
+  text-decoration: none;  
+}
+h1.logo {
+  margin: auto;
+  font-size:2vw;
+  
+}
+h1.logo a{
+  color: #000000;
+}
+.navlist {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  font-size:1.5vw;
+  
+}
+.navform {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-around;   
+}
+.form-group input{
+  border-radius: 3pt;
+  resize: vertical;
+}
+.container .bottom {
+ background-color: black;
+ height: 30pt;
+ width: 100%;
+ margin-top: 5pt;
+ display: flex;
+ flex-direction: row;
+
+}
+.container .top {
+  height: 20pt;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+/* .carousel */
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  
+}
+/*  */  
+
+.header {
+  background-image: url("image/E0452629C5.jpg");
+  color: #ffffff;
+  position: fixed;
+  top: 0pt;
+}
+ul.navlogin li a{
+  color: #1c1c1c;
+}
+ul.navlist li a{
+  color: white;
+}
+form.navform .form-group button{
+ padding: 3pt;
+ background-color: #000000 !important;
+ color: #EEE;
+}

@@ -1,0 +1,50 @@
+
+.chitiet .img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.panel-heading{
+    text-align: center;
+    border-bottom: 1px solid rgb(65, 63, 61);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.panel-default{
+    border: 1pt solid black;
+    margin-top: 15pt;
+    border-radius: 3pt;
+    padding: 10pt;
+}
+a .img-responsive{
+    max-width: 100%;
+    width: 100pt;
+    height: auto;
+}
+
+.panel-body .row{
+ border-bottom: 1pt solid slategrey;
+}
+div.well{
+    border-radius: 1px solid black;
+}
+textarea{
+    width: 100%;
+}
+.mchitiet .media{
+    margin: auto;
+}
+a.pull-left img{
+    width: 100%;
+}
+.well button{
+    padding: 4pt;
+    background-color: forestgreen;
+    width: 30%;
+    border-radius: 2pt;
+    text-transform: uppercase;
+    color: white;
+}

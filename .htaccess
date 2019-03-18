@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule "trangchu" "home.php"
+RewriteRule ^dang-nhap$ dangnhap.php
+RewriteRule ^dang-ky$ dangky.php
+#RewriteRule "^(.*)-(.*).html$" "./loaitin.php?alias=$1&id_loai=$2" [PT]
+
+#RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9])+.html)$ ./chitiet.php?loai_tin=$1&alias=$2&id_tin=$3 [L,QSA]
+
+#<a href="<?= $row_bontinmoi['id_tin] ?>
+# - <?= $row_bontinmoi['TieuDe_khongdau'] ?>"<?= $row_bontinmoi['TieuDe']?> </a>

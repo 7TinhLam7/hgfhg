@@ -1,0 +1,43 @@
+.login{
+    border: 1px solid grey;
+    border-radius: 3pt;
+    box-shadow: 5pt 10pt 8pt 0pt #888888;
+}
+.holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+}
+.panel-heading{
+    text-align: center;
+    border-bottom: 1px solid rgb(65, 63, 61);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+}
+form div label{
+    font-weight: bold;
+}
+form div input{
+    margin-top: 5pt;
+    padding: 2pt;
+    border-radius: 3pt;
+}
+form div.btn button{
+    padding: 4pt;
+    background-color: forestgreen;
+    width: 30%;
+    border-radius: 2pt;
+    text-transform: uppercase;
+}
